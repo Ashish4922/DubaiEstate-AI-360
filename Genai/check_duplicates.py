@@ -1,3 +1,5 @@
+"""Check whether duplicate TRANSACTION_NUMBER values are exact copies
+or genuinely different records. Read-only."""
 from pathlib import Path
 
 import pandas as pd
