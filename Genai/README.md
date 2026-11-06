@@ -28,3 +28,15 @@
 ## Run
     python -m genai.demo_retrieval
     python -m pytest genai/tests -v
+
+## Day 4 completed
+- `assistant.py`: question -> safety checks -> tool selection -> verified
+  result -> answer text (template mode, no external API)
+- `chat.py`: command-line interface
+- Refuses predictions, investment advice, rent/yield questions and prompt
+  injection
+- Design notes in `docs/day4_assistant_design.md`
+## Run
+    python -m genai.chat
+    python -m genai.chat "Which are the top 5 areas by number of sales?"
+    python -m pytest genai/tests -v
