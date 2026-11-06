@@ -40,3 +40,13 @@
     python -m genai.chat
     python -m genai.chat "Which are the top 5 areas by number of sales?"
     python -m pytest genai/tests -v
+
+## Day 5 completed
+- `grounding.py`: checks that every figure in an answer exists in its verified result
+- `tests/test_grounding.py`: numerical correctness (synthetic and real data),
+  missing data, unknown and malformed questions, prompt injection, loader robustness
+- `grounding_report.py`: PASS/FAIL table on the real dataset
+- Report in `docs/day5_grounding_report.md`
+## Run
+    python -m pytest genai/tests -v
+    python -m genai.grounding_report
