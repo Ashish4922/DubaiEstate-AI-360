@@ -11,19 +11,19 @@ question -> safety checks -> tool selection -> retrieval tool ->
 verified result -> answer text
 
 ## Project structure
-| Path | Purpose |
-|---|---|
-| `retrieval.py` | CSV loader with validation and duplicate audit; deterministic tools |
-| `prompts.py` | System, answer and refusal prompt templates; verified-result format |
-| `assistant.py` | Safety checks, tool selection, answer writing |
-| `chat.py` | Command-line interface |
-| `grounding.py` | Checks that every figure in an answer exists in its verified result |
-| `grounding_report.py` | PASS/FAIL table on the real dataset |
-| `report.py` | Market-summary generator with citations |
-| `reports/` | Generated market-summary draft |
-| `tests/` | pytest tests (synthetic data, plus real-data checks) |
-| `docs/` | Design notes for each day, including the five test cases |
-| `inspect_data.py`, `profile_data.py` | Day 1 data inspection scripts |
+| Path                                 | Purpose                                                             |
+|--------------------------------------|---------------------------------------------------------------------|
+| `retrieval.py`                       | CSV loader with validation and duplicate audit; deterministic tools |
+| `prompts.py`                         | System, answer and refusal prompt templates; verified-result format |
+| `assistant.py`                       | Safety checks, tool selection, answer writing                       |
+| `chat.py`                            | Command-line interface                                              |
+| `grounding.py`                       | Checks that every figure in an answer exists in its verified result |
+| `grounding_report.py`                | PASS/FAIL table on the real dataset                                 |
+| `report.py`                          | Market-summary generator with citations                             |
+| `reports/`                           | Generated market-summary draft                                      |
+| `tests/`                             | pytest tests (synthetic data, plus real-data checks)                |
+| `docs/`                              | Design notes for each day, including the five test cases            |
+| `inspect_data.py`, `profile_data.py` | Day 1 data inspection scripts                                       |
 
 ## Setup
 From the repository root (Python 3.10 or newer):
@@ -77,12 +77,12 @@ questions and attempts to change its rules.
 - Figures describe historical transactions only. Not investment advice.
 
 ## Daily summary
-| Day | Deliverable |
-|---|---|
-| 1 | Data inspection, five grounded questions, prohibited behaviours |
-| 2 | Prompt templates and verified-result format |
-| 3 | Retrieval tools, loader, duplicate audit, tests |
-| 4 | Assistant prototype with safety checks, CLI |
-| 5 | Grounding checker, hallucination and robustness tests |
-| 6 | Market-summary report with citations |
-| 7 | Final package, five test cases, documentation |
+| Day | Deliverable                                                     |
+|-----|-----------------------------------------------------------------|
+| 1   | Data inspection, five grounded questions, prohibited behaviours |
+| 2   | Prompt templates and verified-result format                     |
+| 3   | Retrieval tools, loader, duplicate audit, tests                 |
+| 4   | Assistant prototype with safety checks, CLI                     |
+| 5   | Grounding checker, hallucination and robustness tests           |
+| 6   | Market-summary report with citations                            |
+| 7   | Final package, five test cases, documentation                   |
