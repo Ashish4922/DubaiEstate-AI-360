@@ -50,3 +50,14 @@
 ## Run
     python -m pytest genai/tests -v
     python -m genai.grounding_report
+
+## Day 6 completed
+- `report.py`: generates a market-summary draft with citations to aggregates
+  and transaction rows
+- Output: `reports/market_summary_draft.md`
+- Tests in `tests/test_report.py`
+- Notes in `docs/day6_report_notes.md`
+
+## Run
+    python -m genai.report
+    python -m pytest genai/tests -v
