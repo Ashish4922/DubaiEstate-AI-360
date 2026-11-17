@@ -1,0 +1,30 @@
+{
+    "project": "DubaiEstate AI 360 \u2013 Agentic AI Powered Real Estate Investment",
+    "intern": "Nitesh Kumar Barnwal",
+    "domain": "AI/ML",
+    "milestone": "Week 2 \u2013 Day 11: Candidate Model Training",
+    "branch": "feature/week02-aiml-nitesh",
+    "target": "TRANS_VALUE",
+    "candidate_model": {
+        "algorithm": "RandomForestRegressor",
+        "parameters": {
+            "n_estimators": 100,
+            "max_depth": 12,
+            "min_samples_leaf": 5,
+            "max_features": "sqrt",
+            "random_state": 42
+        },
+        "training_time_seconds": 3.869734048843384,
+        "test_metrics": {
+            "MAE": 1455828.8701719749,
+            "RMSE": 8501841.09186494
+        }
+    },
+    "comparison_vs_baselines": {
+        "MAE_reduction_vs_dummy_pct": 22.732300895101638,
+        "RMSE_reduction_vs_dummy_pct": 13.383110006696697,
+        "MAE_reduction_vs_lr_pct": 95.4921991721886,
+        "RMSE_reduction_vs_lr_pct": 95.38797102795941
+    },
+    "verdict": "Candidate RandomForestRegressor successfully improves over all Day 10 baselines."
+}
