@@ -1,0 +1,408 @@
+{
+    "overall": {
+        "N": 26257,
+        "mae": 1455828.8701719749,
+        "medae": 641632.5606388059,
+        "rmse": 8501841.09186494
+    },
+    "prop_type_stats": [
+        {
+            "PROP_TYPE_EN": "Unit",
+            "count": 22064,
+            "mean_actual": 1819132.3017684917,
+            "median_actual": 1199847.0,
+            "mae": 838617.1288100833,
+            "medae": 604879.5171512712,
+            "rmse": 6392153.971573386,
+            "pct_of_test": 84.03092508664356
+        },
+        {
+            "PROP_TYPE_EN": "Land",
+            "count": 2454,
+            "mean_actual": 9575926.689739201,
+            "median_actual": 4865113.79,
+            "mae": 6916901.518444588,
+            "medae": 4453986.069020273,
+            "rmse": 14016828.932733284,
+            "pct_of_test": 9.346079140800548
+        },
+        {
+            "PROP_TYPE_EN": "Building",
+            "count": 1739,
+            "mean_actual": 4646950.071035078,
+            "median_actual": 3675000.0,
+            "mae": 1580433.5754898482,
+            "medae": 814222.5152843618,
+            "rmse": 17195927.602621425,
+            "pct_of_test": 6.62299577255589
+        }
+    ],
+    "top_areas": [
+        {
+            "AREA_EN": "Madinat Al Mataar",
+            "count": 2266,
+            "mean_actual": 1385971.9045631066,
+            "median_actual": 745375.0,
+            "mae": 622764.1307538742,
+            "medae": 530337.7953793971,
+            "rmse": 1807360.1731918682
+        },
+        {
+            "AREA_EN": "JUMEIRAH VILLAGE CIRCLE",
+            "count": 1871,
+            "mean_actual": 1372834.4812453233,
+            "median_actual": 984225.06,
+            "mae": 765880.3641669543,
+            "medae": 562486.3672661278,
+            "rmse": 4087916.182486932
+        },
+        {
+            "AREA_EN": "BUSINESS BAY",
+            "count": 987,
+            "mean_actual": 3523029.180557244,
+            "median_actual": 2000000.0,
+            "mae": 1493667.187227645,
+            "medae": 734146.8122078674,
+            "rmse": 3768699.86033547
+        },
+        {
+            "AREA_EN": "MAJAN",
+            "count": 930,
+            "mean_actual": 1013854.0221827957,
+            "median_actual": 770006.0,
+            "mae": 617913.5351836502,
+            "medae": 550067.4417258035,
+            "rmse": 1250338.6083025916
+        },
+        {
+            "AREA_EN": "Al Hebiah Fifth",
+            "count": 904,
+            "mean_actual": 1969240.8279867256,
+            "median_actual": 1418000.0,
+            "mae": 1549794.663408555,
+            "medae": 698158.5312966327,
+            "rmse": 2075843.175975769
+        },
+        {
+            "AREA_EN": "DUBAI LAND RESIDENCE COMPLEX",
+            "count": 826,
+            "mean_actual": 1232931.2690677966,
+            "median_actual": 800000.0,
+            "mae": 740363.193804812,
+            "medae": 498123.7886808851,
+            "rmse": 3773807.269640363
+        },
+        {
+            "AREA_EN": "Al Rowaiyah First",
+            "count": 730,
+            "mean_actual": 4824377.652589041,
+            "median_actual": 3392500.0,
+            "mae": 6809143.449833746,
+            "medae": 7667123.675586882,
+            "rmse": 9919049.844301354
+        },
+        {
+            "AREA_EN": "Jabal Ali Industrial Second",
+            "count": 722,
+            "mean_actual": 1192509.0160803325,
+            "median_actual": 807250.865,
+            "mae": 843374.3697332877,
+            "medae": 663196.8121315622,
+            "rmse": 1023113.6051213219
+        },
+        {
+            "AREA_EN": "CITY OF ARABIA",
+            "count": 710,
+            "mean_actual": 1125692.073774648,
+            "median_actual": 1020100.0,
+            "mae": 608310.7628951852,
+            "medae": 608658.3552141049,
+            "rmse": 672477.9357462232
+        },
+        {
+            "AREA_EN": "ARJAN",
+            "count": 550,
+            "mean_actual": 1144865.1213636363,
+            "median_actual": 992500.0,
+            "mae": 649982.2194565574,
+            "medae": 567815.8595276056,
+            "rmse": 1163632.073484049
+        },
+        {
+            "AREA_EN": "Al Hebiah First",
+            "count": 544,
+            "mean_actual": 1752997.0155882353,
+            "median_actual": 1050000.0,
+            "mae": 734305.1510412026,
+            "medae": 628684.0702137556,
+            "rmse": 859702.8507355015
+        },
+        {
+            "AREA_EN": "Al Yufrah 1",
+            "count": 517,
+            "mean_actual": 4081855.8723404254,
+            "median_actual": 2650000.0,
+            "mae": 1073481.6274105618,
+            "medae": 803223.7353051857,
+            "rmse": 1325272.2969182977
+        },
+        {
+            "AREA_EN": "DOWN TOWN JABAL ALI",
+            "count": 513,
+            "mean_actual": 1291043.3856335282,
+            "median_actual": 1106998.65,
+            "mae": 752741.2435809373,
+            "medae": 675207.1732514382,
+            "rmse": 1462883.4846303982
+        },
+        {
+            "AREA_EN": "Al Khairan First",
+            "count": 512,
+            "mean_actual": 2920730.62890625,
+            "median_actual": 2983388.0,
+            "mae": 701091.7193640723,
+            "medae": 584619.5417119763,
+            "rmse": 902816.0368942805
+        },
+        {
+            "AREA_EN": "Jabal Ali First",
+            "count": 447,
+            "mean_actual": 2395183.8836689037,
+            "median_actual": 1959801.0,
+            "mae": 855248.3332033348,
+            "medae": 412953.12098788563,
+            "rmse": 1469080.5774515048
+        }
+    ],
+    "lowest_error_areas": [
+        {
+            "AREA_EN": "SUFOUH GARDENS",
+            "count": 65,
+            "mean_actual": 2710147.0583076924,
+            "median_actual": 2808200.0,
+            "mae": 377352.21857488045,
+            "medae": 323159.9760437971,
+            "rmse": 519148.5161333485
+        },
+        {
+            "AREA_EN": "HORIZON",
+            "count": 136,
+            "mean_actual": 2625973.494926471,
+            "median_actual": 2084875.0,
+            "mae": 405835.7236767197,
+            "medae": 263534.6457076224,
+            "rmse": 619373.4508929837
+        },
+        {
+            "AREA_EN": "Ras Al Khor Industrial First",
+            "count": 55,
+            "mean_actual": 2594011.963636364,
+            "median_actual": 1977423.0,
+            "mae": 463006.05707004515,
+            "medae": 360183.98832045356,
+            "rmse": 632482.0029667325
+        },
+        {
+            "AREA_EN": "FALCON CITY OF WONDERS",
+            "count": 51,
+            "mean_actual": 1273845.2745098039,
+            "median_actual": 1262930.0,
+            "mae": 466037.76180701074,
+            "medae": 376953.33114551613,
+            "rmse": 792509.8363567804
+        },
+        {
+            "AREA_EN": "Al Kifaf",
+            "count": 110,
+            "mean_actual": 2887851.4363636365,
+            "median_actual": 2853277.0,
+            "mae": 492665.23486496997,
+            "medae": 448036.30021521635,
+            "rmse": 660642.1686962912
+        },
+        {
+            "AREA_EN": "BUSINESS PARK",
+            "count": 203,
+            "mean_actual": 2070157.2292610838,
+            "median_actual": 1394000.0,
+            "mae": 528081.7616016034,
+            "medae": 309090.59020306263,
+            "rmse": 847605.9350761387
+        },
+        {
+            "AREA_EN": "THE GREENS",
+            "count": 77,
+            "mean_actual": 2174438.437012987,
+            "median_actual": 2075000.0,
+            "mae": 536919.9905995594,
+            "medae": 449950.31173107796,
+            "rmse": 810125.0084650426
+        },
+        {
+            "AREA_EN": "DUBAI SCIENCE PARK",
+            "count": 196,
+            "mean_actual": 1079692.1860204083,
+            "median_actual": 820000.0,
+            "mae": 551641.8419636162,
+            "medae": 560720.7374855406,
+            "rmse": 628391.590096311
+        },
+        {
+            "AREA_EN": "DUBAI HEALTHCARE CITY - PHASE 2",
+            "count": 93,
+            "mean_actual": 1674148.9660215054,
+            "median_actual": 1520760.0,
+            "mae": 564039.2330860137,
+            "medae": 649560.3910542172,
+            "rmse": 674810.8735551913
+        },
+        {
+            "AREA_EN": "Al Jadaf",
+            "count": 38,
+            "mean_actual": 1810028.5207894738,
+            "median_actual": 1237500.0,
+            "mae": 586143.3934275085,
+            "medae": 572442.4594326259,
+            "rmse": 667659.2116520632
+        }
+    ],
+    "highest_error_areas": [
+        {
+            "AREA_EN": "Al Rowaiyah First",
+            "count": 730,
+            "mean_actual": 4824377.652589041,
+            "median_actual": 3392500.0,
+            "mae": 6809143.449833746,
+            "medae": 7667123.675586882,
+            "rmse": 9919049.844301354
+        },
+        {
+            "AREA_EN": "Palm Jabal Ali",
+            "count": 93,
+            "mean_actual": 19963441.397849463,
+            "median_actual": 7768000.0,
+            "mae": 6657005.92659396,
+            "medae": 2197021.668621385,
+            "rmse": 12269810.667183815
+        },
+        {
+            "AREA_EN": "PALM JUMEIRAH",
+            "count": 188,
+            "mean_actual": 14541994.590425532,
+            "median_actual": 6100000.0,
+            "mae": 6515015.7391886925,
+            "medae": 1703657.108596981,
+            "rmse": 19246174.22766533
+        },
+        {
+            "AREA_EN": "Al Hebiah Fourth",
+            "count": 56,
+            "mean_actual": 15927064.107142856,
+            "median_actual": 12400000.0,
+            "mae": 5834178.028194261,
+            "medae": 2042284.505331765,
+            "rmse": 12037979.871815432
+        },
+        {
+            "AREA_EN": "Al Merkadh",
+            "count": 32,
+            "mean_actual": 7290418.96875,
+            "median_actual": 1709848.0,
+            "mae": 5165395.833129298,
+            "medae": 318911.17444696696,
+            "rmse": 26096573.212103784
+        },
+        {
+            "AREA_EN": "EMIRATE LIVING",
+            "count": 66,
+            "mean_actual": 10215107.681818182,
+            "median_actual": 4700000.0,
+            "mae": 4093916.984468136,
+            "medae": 801345.481313616,
+            "rmse": 13398868.178555176
+        },
+        {
+            "AREA_EN": "Me'Aisem First",
+            "count": 51,
+            "mean_actual": 17385689.133333333,
+            "median_actual": 13889000.0,
+            "mae": 4082032.792026681,
+            "medae": 2708440.1136524454,
+            "rmse": 5527337.8325726
+        },
+        {
+            "AREA_EN": "Marsa Dubai",
+            "count": 33,
+            "mean_actual": 8537704.666666666,
+            "median_actual": 4728750.0,
+            "mae": 4065534.9496280937,
+            "medae": 2268940.203261094,
+            "rmse": 6126186.463824565
+        },
+        {
+            "AREA_EN": "Madinat Hind 4",
+            "count": 246,
+            "mean_actual": 1719910.3499186991,
+            "median_actual": 1700000.0,
+            "mae": 3638428.3983582826,
+            "medae": 3960103.964531084,
+            "rmse": 3816316.911614522
+        },
+        {
+            "AREA_EN": "BURJ KHALIFA",
+            "count": 385,
+            "mean_actual": 6381461.16322078,
+            "median_actual": 3100000.0,
+            "mae": 3513355.549238243,
+            "medae": 778291.8843418881,
+            "rmse": 34711815.180755906
+        }
+    ],
+    "small_group_outliers": [
+        {
+            "AREA_EN": "Al Goze Industrial Third",
+            "count": 1,
+            "mean_actual": 191200000.0,
+            "median_actual": 191200000.0,
+            "mae": 146332433.7356703,
+            "medae": 146332433.7356703,
+            "rmse": 146332433.7356703
+        },
+        {
+            "AREA_EN": "Al Nahda First",
+            "count": 3,
+            "mean_actual": 104924952.0,
+            "median_actual": 17423506.0,
+            "mae": 88704465.39004792,
+            "medae": 4115818.1859728377,
+            "rmse": 150582061.71160585
+        },
+        {
+            "AREA_EN": "Al Qusais Industrial Second",
+            "count": 1,
+            "mean_actual": 110000000.0,
+            "median_actual": 110000000.0,
+            "mae": 84814705.05742536,
+            "medae": 84814705.05742536,
+            "rmse": 84814705.05742536
+        },
+        {
+            "AREA_EN": "Al Aweer Second",
+            "count": 2,
+            "mean_actual": 6978939.0,
+            "median_actual": 6978939.0,
+            "mae": 48040426.022406906,
+            "medae": 48040426.022406906,
+            "rmse": 49456205.39572562
+        },
+        {
+            "AREA_EN": "Al Barshaa South First",
+            "count": 1,
+            "mean_actual": 101000000.0,
+            "median_actual": 101000000.0,
+            "mae": 40509529.23831851,
+            "medae": 40509529.23831851,
+            "rmse": 40509529.23831851
+        }
+    ]
+}

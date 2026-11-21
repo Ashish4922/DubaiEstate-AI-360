@@ -1,0 +1,69 @@
+{
+    "project": "DubaiEstate AI 360 \u2013 Agentic AI Powered Real Estate Investment",
+    "intern": "Nitesh Kumar Barnwal",
+    "domain": "AI/ML",
+    "milestone": "Week 2 \u2013 Day 10: Baseline Model Evaluation",
+    "branch": "feature/week02-aiml-nitesh",
+    "target": "TRANS_VALUE",
+    "dataset": {
+        "total_eligible_records": 131283,
+        "train_records": 105026,
+        "test_records": 26257,
+        "split_strategy": "chronological",
+        "train_fraction": 0.8,
+        "test_fraction": 0.2,
+        "train_date_range": {
+            "start": "2026-01-01 16:21:33",
+            "end": "2026-08-18 14:17:11"
+        },
+        "test_date_range": {
+            "start": "2026-08-18 14:17:25",
+            "end": "2026-10-29 13:59:21"
+        }
+    },
+    "features": {
+        "numeric": [
+            "PROCEDURE_AREA",
+            "ACTUAL_AREA"
+        ],
+        "categorical": [
+            "PROCEDURE_EN",
+            "IS_OFFPLAN_EN",
+            "IS_FREE_HOLD_EN",
+            "USAGE_EN",
+            "AREA_EN",
+            "PROP_TYPE_EN",
+            "PROP_SB_TYPE_EN",
+            "ROOMS_EN",
+            "NEAREST_METRO_EN",
+            "NEAREST_MALL_EN",
+            "NEAREST_LANDMARK_EN"
+        ],
+        "total_input_features": 13,
+        "transformed_feature_dimension": 375
+    },
+    "models": {
+        "DummyRegressor_median": {
+            "strategy": "median",
+            "predicted_constant": 1450000.0,
+            "MAE": 1884136.4335122062,
+            "RMSE": 9815454.113536345
+        },
+        "DummyRegressor_mean": {
+            "strategy": "mean",
+            "predicted_constant": 3138378.767514711,
+            "MAE": 2547931.282453033,
+            "RMSE": 9739962.559462959
+        },
+        "LinearRegression_OLS": {
+            "fit_intercept": true,
+            "MAE": 32295767.399262063,
+            "RMSE": 184340582.92793623
+        }
+    },
+    "summary": {
+        "primary_baseline_MAE": 1884136.4335122062,
+        "primary_baseline_RMSE": 9815454.113536345,
+        "status": "Baseline established successfully; awaiting Day 11 candidate model comparison."
+    }
+}
