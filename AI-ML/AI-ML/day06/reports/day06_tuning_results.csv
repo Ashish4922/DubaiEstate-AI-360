@@ -1,0 +1,3 @@
+max_depth,min_samples_leaf,n_estimators,random_seed,validation_MAE
+12,5,80,42,760614.3386420874
+20,5,80,42,670845.6318408318
